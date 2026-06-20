@@ -6,7 +6,7 @@
 
 ## ダウンロード
 
-最新版は[GitHub Releases](https://github.com/ik-neet/mimikopi-lab-downloads/releases/latest)から
+配布版は[GitHub Releases](https://github.com/ik-neet/mimikopi-lab-downloads/releases)から
 `MimikopiLab_*_x64-setup.exe`をダウンロードしてください。
 
 現在はWindows 10/11のx64環境向けベータ版です。未署名版ではWindows SmartScreenの
