@@ -6,8 +6,9 @@
 開発者のサーバーへ音源、分離結果、ファイル名、利用状況を送信する機能や、
 広告・アクセス解析・クラッシュ解析の機能は現在実装していません。
 
-設定や生成データは`%LOCALAPPDATA%/mimikopi-lab`、または利用者が指定した
-ワークフォルダーへ保存されます。アンインストール後も残る場合があります。
+設定や生成データはWindowsでは`%LOCALAPPDATA%/mimikopi-lab`、macOSでは
+`~/Library/Application Support/mimikopi-lab`、または利用者が指定したワークフォルダーへ
+保存されます。アンインストール後も残る場合があります。
 
 利用者がセットアップを実行した場合、Python、Demucs、PyTorch、audio-separator、
 AIモデル等を各提供元からダウンロードします。通常のHTTPリクエスト情報が提供元へ

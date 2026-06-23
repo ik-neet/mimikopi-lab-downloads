@@ -2,16 +2,20 @@
 
 音源をボーカル、ギター、ベース、ドラム、ピアノ、その他へ分離し、同期再生、
 速度・ピッチ変更、区間Loop、EQ、スマートメトロノームなどを使って耳コピを
-支援するWindowsデスクトップアプリです。
+支援するデスクトップアプリです。
 
 ## ダウンロード
 
 配布版は[GitHub Releases](https://github.com/ik-neet/mimikopi-lab-downloads/releases)から
-`MimikopiLab_*_x64-setup.exe`をダウンロードしてください。
+利用環境に合うファイルをダウンロードしてください。
 
-現在はWindows 10/11のx64環境向けベータ版です。未署名版ではWindows SmartScreenの
-警告が表示される場合があります。配布物の改ざん確認には、各Releaseに添付された
-`SHA256SUMS.txt`を使用できます。
+- Windows 10/11 x64: `MimikopiLab_*_windows_x64-setup.exe`
+- macOS x64: `MimikopiLab_*_macos_x64.dmg`
+
+現在はベータ版です。Windows版は未署名、macOS版は未公証のため、Windows
+SmartScreenやmacOS Gatekeeperの警告が表示される場合があります。macOS x64版は
+Intel Mac向けで、Apple Silicon搭載MacではRosettaを利用します。配布物の改ざん
+確認には、各Releaseに添付された`SHA256SUMS.txt`を使用できます。
 
 ## 主な機能
 
